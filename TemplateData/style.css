@@ -23,5 +23,8 @@ button.workaround-button
     z-index: 1000;
     height: 100%;
     width: 100%;
-    color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-repeat: no-repeat;
 }
