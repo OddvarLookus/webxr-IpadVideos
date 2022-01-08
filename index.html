@@ -73,7 +73,11 @@
       };
       document.body.appendChild(script);
 
-      config.devicePixelRatio = 1;
+      if (/iPhone|iPad|iPod/i.test(navigator.userAgent))
+      {
+        config.devicePixelRatio = 1;
+      }
+      
     </script>
   </body>
 </html>
